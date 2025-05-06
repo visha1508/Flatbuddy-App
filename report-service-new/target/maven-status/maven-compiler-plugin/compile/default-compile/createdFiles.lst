@@ -1,0 +1,6 @@
+com\reports\dto\UserReportDto.class
+com\reports\service\ReportsService.class
+com\reports\controller\ReportsController.class
+com\reports\config\RestTemplateConfig.class
+com\reports\dto\FlatReportDto.class
+com\reports\ReportsServiceApplication.class

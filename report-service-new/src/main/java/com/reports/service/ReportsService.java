@@ -43,7 +43,7 @@ public class ReportsService {
 
     public List<FlatReportDto> getAllFlatReports() {
         // If flat-service is not secured:
-        FlatReportDto[] flats = restTemplate.getForObject(flatServiceUrl + "/getAllFlats", FlatReportDto[].class);
+        FlatReportDto[] flats = restTemplate.getForObject(flatServiceUrl + "/flats", FlatReportDto[].class);
         return Arrays.asList(flats);
     }
 }

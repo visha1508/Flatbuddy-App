@@ -15,13 +15,9 @@ spec:
       containers:
         - name: reports
           image: reports-service:latest
+          imagePullPolicy: Never  # Prevent Kubernetes from pulling the image
           ports:
             - containerPort: 8081
-          env:
-            - name: USER_SERVICE_URL
-              value: http://flatbuddy-service:8080
-            - name: FLAT_SERVICE_URL
-              value: http://flatbuddy-service:8080
 ---
 apiVersion: v1
 kind: Service

@@ -28,7 +28,7 @@ public class ReportsService {
 
     public List<UserReportDto> getAllUserReports() {
         HttpHeaders headers = new HttpHeaders();
-        headers.setBasicAuth("admin", "admin123");  // Basic Auth
+//        headers.setBasicAuth("admin", "admin123");  // Basic Auth
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
         ResponseEntity<UserReportDto[]> response = restTemplate.exchange(

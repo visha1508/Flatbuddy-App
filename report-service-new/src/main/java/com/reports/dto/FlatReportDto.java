@@ -1,113 +1,114 @@
 package com.reports.dto;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class FlatReportDto {
-    
-    private String id;
 
-    private String title;
-    private String description;
-    private String location;
-    private int price;
+	private String _id;
 
-    private String landlordId;
-    private List<String> tenantIds;
+	private String title;
+	private String description;
+	private String location;
+	private int price;
 
-    private List<String> preferences;
-    private List<String> amenities;
+	private String landlordId;
+	private List<String> tenantIds;
 
-    private LocalDate availableFrom;
+	private List<String> preferences;
+	private List<String> amenities;
 
-    private String managerId;
+	private LocalDateTime  availableFrom;
 
-    // Getters and Setters
-    public String getId() {
-        return id;
-    }
+	private String managerId;
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	// Getters and Setters
 
-    public String getTitle() {
-        return title;
-    }
+	public String getTitle() {
+		return title;
+	}
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+	public void setTitle(String title) {
+		this.title = title;
+	}
 
-    public String getDescription() {
-        return description;
-    }
+	public String getDescription() {
+		return description;
+	}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+	public void setDescription(String description) {
+		this.description = description;
+	}
 
-    public String getLocation() {
-        return location;
-    }
+	public String getLocation() {
+		return location;
+	}
 
-    public void setLocation(String location) {
-        this.location = location;
-    }
+	public void setLocation(String location) {
+		this.location = location;
+	}
 
-    public int getPrice() {
-        return price;
-    }
+	public int getPrice() {
+		return price;
+	}
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
+	public void setPrice(int price) {
+		this.price = price;
+	}
 
-    public String getLandlordId() {
-        return landlordId;
-    }
+	public String getLandlordId() {
+		return landlordId;
+	}
 
-    public void setLandlordId(String landlordId) {
-        this.landlordId = landlordId;
-    }
+	public void setLandlordId(String landlordId) {
+		this.landlordId = landlordId;
+	}
 
-    public List<String> getTenantIds() {
-        return tenantIds;
-    }
+	public List<String> getTenantIds() {
+		return tenantIds;
+	}
 
-    public void setTenantIds(List<String> tenantIds) {
-        this.tenantIds = tenantIds;
-    }
+	public void setTenantIds(List<String> tenantIds) {
+		this.tenantIds = tenantIds;
+	}
 
-    public List<String> getPreferences() {
-        return preferences;
-    }
+	public List<String> getPreferences() {
+		return preferences;
+	}
 
-    public void setPreferences(List<String> preferences) {
-        this.preferences = preferences;
-    }
+	public void setPreferences(List<String> preferences) {
+		this.preferences = preferences;
+	}
 
-    public List<String> getAmenities() {
-        return amenities;
-    }
+	public List<String> getAmenities() {
+		return amenities;
+	}
 
-    public void setAmenities(List<String> amenities) {
-        this.amenities = amenities;
-    }
+	public void setAmenities(List<String> amenities) {
+		this.amenities = amenities;
+	}
 
-    public LocalDate getAvailableFrom() {
-        return availableFrom;
-    }
+	public LocalDateTime  getAvailableFrom() {
+		return availableFrom;
+	}
 
-    public void setAvailableFrom(LocalDate availableFrom) {
-        this.availableFrom = availableFrom;
-    }
+	public void setAvailableFrom(LocalDateTime  availableFrom) {
+		this.availableFrom = availableFrom;
+	}
 
-    public String getManagerId() {
-        return managerId;
-    }
+	public String getManagerId() {
+		return managerId;
+	}
 
-    public void setManagerId(String managerId) {
-        this.managerId = managerId;
-    }
+	public void setManagerId(String managerId) {
+		this.managerId = managerId;
+	}
+
+	public String get_id() {
+		return _id;
+	}
+
+	public void set_id(String _id) {
+		this._id = _id;
+	}
 }
